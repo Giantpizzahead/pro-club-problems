@@ -1,0 +1,22 @@
+---
+problem_id: PRA4
+problem_name: One Among Us
+difficulty: Advanced
+time_limit: 1
+memory_limit: 128
+scoring_method: average
+checker: diff
+max_score: 100
+fill_missing_output: false
+
+subtasks:
+  - name: 01_main
+    score: 100
+    num_samples: 1
+  - name: 02_bonus
+    is_bonus: true
+    score: 15
+    num_samples: 1
+    depends_on:
+      - 01_main
+...

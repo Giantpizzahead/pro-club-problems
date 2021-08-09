@@ -1,0 +1,1 @@
+1. If Petra recorded all of her scores for each round (no $-1$s), what would the final score for her practice session be? How would you adapt this calculation to the case when Petra forgot to record some of her scores, knowing that the minimum possible score for a round is $0$, and the maximum possible score for a round is $100$?

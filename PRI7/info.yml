@@ -1,0 +1,15 @@
+---
+problem_id: PRI7
+problem_name: Painting The Fence
+difficulty: Intermediate
+time_limit: 2
+memory_limit: 128
+scoring_method: average
+checker: diff
+max_score: 100
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 100
+...

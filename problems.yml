@@ -1,0 +1,236 @@
+---
+groups:
+  - id: bomb
+    name: BOMB
+    status: up
+    problems:
+      - id: BOMB2
+        name: Episode 2
+        blurb: "[500]"
+        difficulty: Advanced
+        status: up
+      - id: BOMB1
+        name: Episode 1
+        blurb: "[100]"
+        difficulty: Beginner
+        status: up
+  - id: week8
+    name: Week 8
+    status: up
+    problems:
+      - id: PRS8
+        name: Reinventing Goggle
+        blurb: Searching for points [300]
+        difficulty: Approximate
+        status: up
+      - id: PRA8
+        name: Maze
+        blurb: Intro to shortest paths [100]
+        difficulty: Advanced
+        status: up
+      - id: PRB8
+        name: Archery
+        blurb: Preparing for the shootoff [100]
+        difficulty: Beginner
+        status: up
+  - id: week7
+    name: Week 7
+    status: up
+    problems:
+      - id: PRS7
+        name: Farmer John's Favorite Number
+        blurb: Think inside the boxes [100]
+        difficulty: Intermediate
+        status: up
+      - id: PRA7
+        name: Statistics
+        blurb: Lots of modes [100+20]
+        difficulty: Advanced
+        status: up
+      - id: PRI7
+        name: Painting The Fence
+        blurb: Farmer John creates art [100]
+        difficulty: Intermediate
+        status: up
+      - id: PRB7
+        name: Candy Addition
+        blurb: Sharing is caring [100]
+        difficulty: Beginner
+        status: up
+  - id: week6
+    name: Week 6
+    status: up
+    problems:
+      - id: angry
+        name: Angry Cows
+        blurb: "USACO Mock, Problem 4 [200]"
+        difficulty: Advanced
+        status: up
+      - id: cowtip
+        name: Cow Tipping
+        blurb: "USACO Mock, Problem 3 [200]"
+        difficulty: Intermediate
+        status: up
+      - id: cownomics
+        name: Bovine Genomics
+        blurb: "USACO Mock, Problem 2 [200]"
+        difficulty: Intermediate
+        status: up
+      - id: lostcow
+        name: The Lost Cow
+        blurb: "USACO Mock, Problem 1 [200]"
+        difficulty: Beginner
+        status: up
+      - id: fileio
+        name: File IO
+        blurb: Reading and writing to files [200]
+        difficulty: Beginner
+        status: up
+  - id: week5
+    name: Week 5
+    status: up
+    problems:
+      - id: PRA5
+        name: Sleepy Cow Sorting
+        blurb: Farmer John gets greedy [100+20]
+        difficulty: Advanced
+        status: up
+      - id: PRI5
+        name: Lifeguards
+        blurb: Keeping the pool safe [100+30]
+        difficulty: Intermediate
+        status: up
+      - id: PRB5
+        name: The Cow-Signal
+        blurb: Bessie the supercow [100]
+        difficulty: Beginner
+        status: up
+  - id: week4
+    name: Week 4
+    status: up
+    problems:
+      - id: PRS4
+        name: Bessie's Favorite Number
+        blurb: Think outside (or inside?) the box [100]
+        difficulty: Advanced
+        status: up
+      - id: PRA4
+        name: One Among Us
+        blurb: Finding the impostor [100+15]
+        difficulty: Advanced
+        status: up
+      - id: PRI4
+        name: Social Distancing
+        blurb: Protecting against COWVID-19 [100+15]
+        difficulty: Intermediate
+        status: up
+      - id: PRB4
+        name: The Leaderboard
+        blurb: Sorting in practice [100]
+        difficulty: Beginner
+        status: up
+  - id: week3
+    name: Week 3
+    status: up
+    problems:
+      - id: PRA3
+        name: Balanced Brackets
+        blurb: As all things should be [100+20]
+        difficulty: Advanced
+        status: up
+      - id: PRI3b
+        name: Prime Distance
+        blurb: Edit distance... but with primes? [100]
+        difficulty: Intermediate
+        status: up
+      - id: PRI3a
+        name: Link Chasing
+        blurb: Caught in the interweb [100]
+        difficulty: Intermediate
+        status: up
+      - id: PRB3
+        name: Triangle Creation
+        blurb: Stretching metal rods [100]
+        difficulty: Beginner
+        status: up
+  - id: week2
+    name: Week 2
+    status: up
+    problems:
+      - id: PRA2
+        name: Budget Fashion
+        blurb: Saving money AND water! [100+15]
+        difficulty: Advanced
+        status: up
+      - id: PRI2
+        name: Shell Game
+        blurb: Pay attention... [100]
+        difficulty: Intermediate
+        status: up
+      - id: PRB2b
+        name: Test Taking (Harder)
+        blurb: Introducing variables [50+15]
+        difficulty: Beginner
+        status: up
+      - id: PRB2a
+        name: Test Taking (Easier)
+        blurb: ACing the exam [50]
+        difficulty: Beginner
+        status: up
+  - id: week1
+    name: Week 1
+    status: up
+    problems:
+      - id: PRA1
+        name: High Card Wins
+        blurb: The rigged card game [100+10]
+        difficulty: Advanced
+        status: up
+      - id: PRI1
+        name: Hoof, Paper, Scissors
+        blurb: Bessie makes her move [100]
+        difficulty: Intermediate
+        status: up
+      - id: PRB1
+        name: The Homework Prank
+        blurb: Blake's huge mistake [100]
+        difficulty: Beginner
+        status: up
+  - id: week0
+    name: Week 0
+    status: up
+    problems:
+      - id: PRB0
+        name: Hello World!
+        blurb: The first problem [100]
+        difficulty: Beginner
+        status: up
+  - id: hidden
+    name: Hidden Group
+    status: hidden
+    problems:
+      - id: survey
+        name: Survey
+        blurb: Taking a survey [10]
+        difficulty: Beginner
+        status: up
+      - id: test
+        name: A Test Problem
+        blurb: Hidden test problem [50]
+        difficulty: Special
+        status: hidden
+  - id: base_group
+    name: Base Group
+    status: down
+    problems:
+      - id: basebonus
+        name: Base Problem + Bonus
+        blurb: Blurb goes here
+        difficulty: Beginner
+        status: up
+      - id: base
+        name: Base Problem
+        blurb: Blurb goes here
+        difficulty: Beginner
+        status: up
+...

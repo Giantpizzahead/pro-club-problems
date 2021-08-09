@@ -1,0 +1,16 @@
+---
+problem_id: PRS8
+problem_name: Reinventing Goggle
+difficulty: Approximate
+time_limit: 2
+memory_limit: 208
+scoring_method: average
+checker: custom
+max_score: 300
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 300
+    num_samples: 1
+...

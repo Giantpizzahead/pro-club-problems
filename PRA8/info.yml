@@ -1,0 +1,16 @@
+---
+problem_id: PRA8
+problem_name: Maze
+difficulty: Advanced
+time_limit: 2
+memory_limit: 192
+scoring_method: average
+checker: diff
+max_score: 100
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 100
+    num_samples: 1
+...

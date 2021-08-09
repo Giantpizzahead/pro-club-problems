@@ -1,0 +1,17 @@
+---
+problem_id: lostcow
+problem_name: The Lost Cow
+difficulty: Beginner
+time_limit: 2
+memory_limit: 192
+scoring_method: average
+checker: diff
+file_io: lostcow
+max_score: 200
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 200
+    num_samples: 1
+...

@@ -1,0 +1,16 @@
+---
+problem_id: PRI3a
+problem_name: Link Chasing
+difficulty: Intermediate
+time_limit: 0.5
+memory_limit: 64
+scoring_method: average
+checker: diff
+max_score: 100
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 100
+    num_samples: 1
+...

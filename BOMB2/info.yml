@@ -1,0 +1,15 @@
+---
+problem_id: BOMB2
+problem_name: Episode 2
+difficulty: Advanced
+time_limit: 0.5
+memory_limit: 96
+scoring_method: average
+checker: diff
+max_score: 500
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 500
+...

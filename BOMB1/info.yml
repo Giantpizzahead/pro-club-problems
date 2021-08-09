@@ -1,0 +1,15 @@
+---
+problem_id: BOMB1
+problem_name: Episode 1
+difficulty: Beginner
+time_limit: 0.5
+memory_limit: 96
+scoring_method: average
+checker: diff
+max_score: 100
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 100
+...

@@ -1,0 +1,3 @@
+1. The bounds for the problem are pretty small (only $500$ people at max to consider and $500$ pieces of info), so **complete search** - assuming each person is the impostor, and seeing if the pieces of info match - would probably work here.
+
+2. When trying person $X$ as the impostor, it makes sense to ignore all the pieces of info that person $X$ gave, since they could've faked all of it. If the remaining pieces of info either say that the impostor is someone other than person $X$, or if person $X$ is safe, then that person cannot be the impostor.

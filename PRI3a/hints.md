@@ -1,0 +1,5 @@
+1. Storing the website links in an **array** would make it easier to simulate Jake's path from website $1$ to website $N$. Since arrays are 0-indexed, it might also make sense to subtract 1 from all the website link locations (although this is really up to personal preference).
+
+2. For 80% of the points, it's guaranteed that Jake will eventually get to website $N$. So, to get a majority of the points, all your code has to do is to follow the links on the websites until you reach website $N$. One way to do this could be to keep track of the current website you are on, and to follow the website links by doing something like **currentSite = links[currentSite]**.
+
+3. For 20% of the points, Jake may get stuck in an infinite loop. If Jake will not get stuck in a loop, what is the maximum # of links he will have to follow to get to website $N$? Can this info be used to detect when Jake will never get to website $N$ (perhaps by stopping after too many links have been followed)?

@@ -1,0 +1,22 @@
+---
+problem_id: PRB2b
+problem_name: Test Taking (Harder)
+difficulty: Beginner
+time_limit: 1
+memory_limit: 192
+scoring_method: average
+checker: diff
+max_score: 50
+fill_missing_output: true
+
+subtasks:
+  - name: 01_main
+    score: 50
+    num_samples: 1
+  - name: 02_bonus
+    is_bonus: true
+    score: 15
+    num_samples: 1
+    depends_on:
+      - 01_main
+...

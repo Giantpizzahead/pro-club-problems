@@ -1,0 +1,21 @@
+---
+problem_id: PRA3
+problem_name: Balanced Brackets
+difficulty: Advanced
+time_limit: 1.5
+memory_limit: 192
+scoring_method: average
+checker: custom
+max_score: 100
+fill_missing_output: false
+subtasks:
+  - name: 01_main
+    score: 100
+    num_samples: 2
+  - name: 02_bonus
+    is_bonus: true
+    score: 20
+    num_samples: 1
+    depends_on:
+      - 01_main
+...

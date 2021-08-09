@@ -1,0 +1,3 @@
+1. A triangle only has positive area when for every side of the triangle, the sum of the other two side lengths is greater than the current side's length. That is, if the triangle has side lengths $a$, $b$, and $c$, then $a + b > c$, $b + c > a$, and $a + c > b$.
+
+2. Since $a$, $b$, and $c$ are already sorted in non-decreasing order, the tightest condition out of the above three is $a + b > c$ (if this is satisfied, the other two will also be). So, how could you determine the # of minutes needed in order to satisfy this condition?

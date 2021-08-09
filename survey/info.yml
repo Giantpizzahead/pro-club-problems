@@ -1,0 +1,16 @@
+---
+problem_id: survey
+problem_name: Survey
+difficulty: Beginner
+time_limit: 0.5
+memory_limit: 64
+scoring_method: average
+checker: diff
+max_score: 10
+fill_missing_output: false
+
+subtasks:
+  - name: main
+    score: 10
+    num_samples: 1
+...
